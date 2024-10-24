@@ -1,0 +1,186 @@
+@font-face {
+   font-family: Outfit;
+   src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+   font-family: 'Young Serif';
+   src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   padding: 0;
+   margin: 0;
+   line-height: normal;
+}
+
+ul {
+   padding: 0;
+   margin: 0;
+}
+
+p {
+   margin: 15px 0 15px 15px;
+}
+
+body {
+   background-color: rgb(243, 229, 216);
+   width: 100%;
+   height: auto;
+}
+
+/* Simple Omelette Recipe */
+
+h1 {
+   font-family: 'Young Serif', sans-serif;
+   margin: 15px;
+}
+
+.dish {
+   margin: 15px;
+   font-size: 16px;
+}
+
+/* Ingredients,Instructions,Nutrition */
+
+h2 {
+   font-family: 'Young Serif', sans-serif;
+   margin: 15px 0 15px 15px;
+}
+
+.list-Ingredients {
+   margin: 15px;
+   padding: 20px;
+}
+
+.list-Ingredients li {
+   margin-left: 25px;
+   list-style: disc;
+}
+
+/* Preparation time */
+
+h3 {
+   font-family: 'Young Serif', sans-serif;
+   margin: 15px 0 15px 15px;
+   color: rgb(136, 16, 66);
+}
+
+.list-preparation-time {
+   background-color: rgb(193, 160, 166, 0.2);
+   border-radius: 5px;
+   margin: 15px;
+   padding: 20px;
+}
+
+.list-preparation-time li {
+   margin-left: 25px;
+   list-style: disc;
+}
+
+.optional-fillings {
+   margin-top: 12px;
+   margin-left: 15px;
+   margin-bottom: 12px;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+/* Instruction */
+
+.list-instruction {
+   margin: 15px 24px;
+}
+
+.list-instruction li {
+   margin: 10px;
+}
+
+/* Nutrition */
+
+.list-nutrition {
+   list-style-type: none;
+}
+
+.list-nutrition li {
+   display: flex;
+   border-top: 1px solid gray;
+}
+
+.list-nutrition li :not(:last-child) {
+   border-bottom: none;
+}
+
+.element {
+   margin-left: 50px;
+}
+.kcal {
+   margin-left: 80px;
+}
+
+.gram {
+   margin-left: 80px;
+}
+
+.Carbs {
+   margin-left: 111px;
+}
+.Protein {
+   margin-left: 96px;
+}
+.Fat {
+   margin-left: 123px;
+}
+
+/* img */
+
+.wrapper-content {
+   width: 800px;
+   background-color: #fff;
+   border-radius: 15px;
+   margin: 25px auto;
+   padding: 15px;
+}
+.wrapper-img__pos-center {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.wrapper-img {
+   display: flex;
+   margin: 15px;
+   border-radius: 15px;
+   overflow: hidden;
+   width: 600px;
+}
+
+.wrapper-img img {
+   width: 600px;
+   height: auto;
+}
+
+@media (min-width: 367px) and (max-width: 768px) {
+   body {
+      background-color: #fff;
+   }
+
+   .wrapper-content {
+      width: 400px;
+   }
+
+   .wrapper-img img {
+      width: 400px;
+   }
+}
